@@ -1,3 +1,7 @@
+/**
+ * 1. 两数之和
+ * https://leetcode-cn.com/problems/two-sum/
+ */
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         for(int i = 0; i < nums.length; i++){

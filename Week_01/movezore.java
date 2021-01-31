@@ -1,3 +1,7 @@
+/**
+ * 283. 移动零
+ * https://leetcode-cn.com/problems/move-zeroes/
+ */
 class Solution {
     public void moveZeroes(int[] nums) {
         int index = 0;
