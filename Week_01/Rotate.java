@@ -3,9 +3,9 @@ class Solution {
         int[] temp = new int[nums.length];
         k = k % nums.length;
         for(int i = 0; i < k; i++) {
-            temp[i] = nums[nums.length - k + i];
+            temp[i] = nums[nums.length-k + i];
         }
-        for(int i = 0; i<nums.length - k; i++) {
+        for(int i = 0; i<nums.length-k; i++) {
             temp[i+k] = nums[i];
         }
         for(int i = 0; i<nums.length; i++) {
