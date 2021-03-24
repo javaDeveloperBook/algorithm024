@@ -2,8 +2,7 @@
  * 22. 括号生成
  * https://leetcode-cn.com/problems/generate-parentheses/
  *
- * 方式一：深度优先遍历
- *
+ * DFS
  *
  */
 class Solution {
